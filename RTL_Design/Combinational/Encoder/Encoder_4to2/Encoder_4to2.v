@@ -1,4 +1,4 @@
-module encoder_4to2 (
+module Encoder_4to2 (
     input [3:0] I ,
     output [1:0] Y
 );
