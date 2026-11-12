@@ -68,7 +68,13 @@ A hands-on repository for learning digital logic, Verilog RTL design, hierarchic
 | 4:2 Priority Encoder | [Open project](https://github.com/CodeWithOmsai77/Verilog-Fundamentals/tree/main/RTL_Design/Combinational/Encoder/Priority_Encoder_4to2) |
 | 4:2 Priority Encoder with Valid Output | [Open project](https://github.com/CodeWithOmsai77/Verilog-Fundamentals/tree/main/RTL_Design/Combinational/Encoder/Priority_Encoder_4to2_using_Valid_output) |
 
-### 6. Sequential Logic — Flip-Flops
+### 6. Adders
+
+| Project | Implementation / Verification | Source / Project Files |
+|---|---|---|
+| 4-bit Ripple Carry Adder | Hierarchical design using four Full Adder modules; self-checking testbench covering all 512 input combinations | [Open project](https://github.com/CodeWithOmsai77/Verilog-Fundamentals/tree/main/RTL_Design/Combinational/Adders/Ripple_Carry_Adder) |
+
+### 7. Sequential Logic — Flip-Flops
 
 | Project | Source / Project Files |
 |---|---|
@@ -105,10 +111,14 @@ Verilog-Fundamentals/
 │       └── Demultiplexer/
 ├── RTL_Design/
 │   ├── Combinational/
+│   │   ├── Adders/
+│   │   │   └── Ripple_Carry_Adder/
 │   │   ├── Decoders/
 │   │   └── Encoder/
 │   └── Sequential/
 │       └── Flip-Flops/
+├── Projects/
+│   └── Traffic_Light_Controller/
 ├── Makefile
 ├── Makefile_and_RTL_Automation_Notes.md
 └── README.md
