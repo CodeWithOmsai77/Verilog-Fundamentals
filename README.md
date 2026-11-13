@@ -115,8 +115,9 @@ Verilog-Fundamentals/
 ├── RTL_Design/
 │   ├── Combinational/
 │   │   ├── Adders/
-│   │   ├── Adders/    ├── Half_Adder/
+│   │   │   ├── Half_Adder/
 │   │   │   ├── Full_Adder/
+│   │   │   ├── full_adder_using_two_half_adder/
 │   │   │   └── Ripple_Carry_Adder/
 │   │   ├── Decoders/
 │   │   └── Encoder/
