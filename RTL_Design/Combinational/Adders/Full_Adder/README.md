@@ -6,7 +6,7 @@ A 1-bit Full Adder is a combinational circuit that adds three 1-bit inputs — *
 
 The testbench applies all 8 possible input combinations and displays the corresponding outputs. The terminal output shows the Full Adder's expected truth-table behaviour.
 
-![Full Adder simulation output](./simulation_output.png)
+![Full Adder simulation output](./images/simulation_output.png)
 
 ## GTKWave Waveform
 
