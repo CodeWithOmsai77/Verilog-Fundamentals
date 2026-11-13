@@ -1,9 +1,9 @@
 module tb_half_adder;
-reg b, b;
+reg a, b;
 wire sum, cout;
 integer i;
 
-full_adder DUT (
+half_adder DUT (
     .a(a),
     .b(b),
     .sum(sum),
@@ -14,10 +14,10 @@ initial begin
     $dumpfile ("dump.vcd");
     $dumpvars (0, tb_half_adder);
 
-    $monitor("Time=%0t | a=%b b=%b | Cout=%b Sum=%b", $time, A, B, Cout, Sum);
+    $monitor("Time=%0t | a=%b b=%b | cout=%b Sum=%b", $time, a, b, cout, sum);
 
     for (i = 0 ; i < 4 ; i++) begin
-        {A, B, Cin} = i[1:0];
+        {a, b} = i[1:0];
         #10;
     end
     $finish;

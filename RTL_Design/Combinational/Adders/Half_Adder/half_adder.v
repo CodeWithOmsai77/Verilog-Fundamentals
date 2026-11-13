@@ -1,6 +1,6 @@
 module half_adder (
     input a, b,
-    output sum, cout
+    output reg sum, cout
 );
 
 always @ (*) begin
