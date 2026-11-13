@@ -72,6 +72,7 @@ A hands-on repository for learning digital logic, Verilog RTL design, hierarchic
 
 | Project | Implementation / Verification | Source / Project Files |
 |---|---|---|
+| Full Adder | Combinational 1-bit adder with two outputs: Sum and Carry | [Open project](https://github.com/CodeWithOmsai77/Verilog-Fundamentals/tree/main/RTL_Design/Combinational/Adders/Full_Adder) |
 | 4-bit Ripple Carry Adder | Hierarchical design using four Full Adder modules; self-checking testbench covering all 512 input combinations | [Open project](https://github.com/CodeWithOmsai77/Verilog-Fundamentals/tree/main/RTL_Design/Combinational/Adders/Ripple_Carry_Adder) |
 
 ### 7. Sequential Logic — Flip-Flops
@@ -112,6 +113,7 @@ Verilog-Fundamentals/
 ├── RTL_Design/
 │   ├── Combinational/
 │   │   ├── Adders/
+│   │   │   ├── Full_Adder/
 │   │   │   └── Ripple_Carry_Adder/
 │   │   ├── Decoders/
 │   │   └── Encoder/
