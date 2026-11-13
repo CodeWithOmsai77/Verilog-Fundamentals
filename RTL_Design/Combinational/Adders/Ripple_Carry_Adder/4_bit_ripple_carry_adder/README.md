@@ -41,6 +41,10 @@ For each stage:
 - Sum is generated using two XOR operations.
 - Carry is generated using three AND terms combined by an OR gate.
 
+## Timing Characteristics
+
+The carry must propagate through successive Full Adder stages before the most-significant result is fully determined. As the adder width increases, this serial carry path becomes longer. This makes the Ripple Carry Adder structurally simple and easy to build hierarchically, but generally slower than faster carry architectures such as carry-lookahead adders for wider operands. This is a qualitative architecture comparison, not a measured timing result for this implementation.
+
 ## Verification
 
 The testbench checks every possible combination of the two 4-bit operands and the carry input:
