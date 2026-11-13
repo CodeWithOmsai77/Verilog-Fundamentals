@@ -2,6 +2,19 @@
 
 A 1-bit Full Adder is a combinational circuit that adds three 1-bit inputs — **A**, **B**, and **Cin** — and produces two outputs: **Sum** and **Cout**.
 
+## Truth Table
+
+| A | B | Cin | Sum | Cout |
+|---|---|---|---|---|
+| 0 | 0 | 0 | 0 | 0 |
+| 0 | 0 | 1 | 1 | 0 |
+| 0 | 1 | 0 | 1 | 0 |
+| 0 | 1 | 1 | 0 | 1 |
+| 1 | 0 | 0 | 1 | 0 |
+| 1 | 0 | 1 | 0 | 1 |
+| 1 | 1 | 0 | 0 | 1 |
+| 1 | 1 | 1 | 1 | 1 |
+
 ## Simulation Output
 
 The testbench applies all 8 possible input combinations and displays the corresponding outputs. The terminal output shows the Full Adder's expected truth-table behaviour.
