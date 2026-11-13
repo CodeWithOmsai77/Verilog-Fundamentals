@@ -12,7 +12,7 @@ The testbench applies all 8 possible input combinations and displays the corresp
 
 The waveform shows how the inputs **A**, **B**, and **Cin** change across the eight test cases, and how **Sum** and **Cout** respond to each combination.
 
-![Full Adder GTKWave waveform](./waveform.png)
+![Full Adder GTKWave waveform](./images/waveform.png)
 
 ## Logic
 
