@@ -84,6 +84,12 @@ A hands-on repository for learning digital logic, Verilog RTL design, hierarchic
 | D Flip-Flop | [Open project](https://github.com/CodeWithOmsai77/Verilog-Fundamentals/tree/main/RTL_Design/Sequential/Flip-Flops/D_Flip-Flop) |
 | D Flip-Flop with Reset | [Open project](https://github.com/CodeWithOmsai77/Verilog-Fundamentals/tree/main/RTL_Design/Sequential/Flip-Flops/D_FF_With_Reset) |
 
+### 7. Arithmetic Logic Unit (ALU)
+
+| Project | Description | Source / Project Files |
+|---|---|---|
+| 4-bit ALU | Eight arithmetic and logic operations; simulated with Icarus Verilog and inspected in GTKWave | [Open project](https://github.com/CodeWithOmsai77/Verilog-Fundamentals/tree/main/RTL_Design/Combinational/ALU) |
+
 ---
 
 ## 🧰 Workflow and Learning Notes
