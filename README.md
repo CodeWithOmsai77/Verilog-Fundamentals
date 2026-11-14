@@ -84,7 +84,7 @@ A hands-on repository for learning digital logic, Verilog RTL design, hierarchic
 | D Flip-Flop | [Open project](https://github.com/CodeWithOmsai77/Verilog-Fundamentals/tree/main/RTL_Design/Sequential/Flip-Flops/D_Flip-Flop) |
 | D Flip-Flop with Reset | [Open project](https://github.com/CodeWithOmsai77/Verilog-Fundamentals/tree/main/RTL_Design/Sequential/Flip-Flops/D_FF_With_Reset) |
 
-### 7. Arithmetic Logic Unit (ALU)
+### 8. Arithmetic Logic Unit (ALU)
 
 | Project | Description | Source / Project Files |
 |---|---|---|
@@ -126,7 +126,11 @@ Verilog-Fundamentals/
 │   │   │   ├── full_adder_using_two_half_adder/
 │   │   │   └── Ripple_Carry_Adder/
 │   │   ├── Decoders/
-│   │   └── Encoder/
+│   │   ├── Encoder/
+│   │   └── ALU/
+│   │       ├── ALU.v
+│   │       ├── tb_ALU.v
+│   │       └── README.md
 │   └── Sequential/
 │       └── Flip-Flops/
 ├── Projects/
