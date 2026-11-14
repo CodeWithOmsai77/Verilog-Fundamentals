@@ -33,8 +33,10 @@ gtkwave dump.vcd
 
 The testbench uses A = `0101` and B = `0011`, and iterates through all eight operations.
 
-## GTKWave Simulation
+## Simulation Output
 
-The waveform below shows the select signal stepping through all eight operations, alongside inputs A and B, output Y, and carry output Cout.
+![ALU Simulation Output](./images/simulation_output.png)
 
-![4-bit ALU GTKWave waveform](./alu_gtkwave.png)
+## GTKWave Waveform
+
+![ALU GTKWave Waveform](./images/alu_gtkwave.png)
