@@ -103,6 +103,7 @@ A hands-on repository documenting my progression in digital logic, Verilog RTL d
 | Project | Description | Link |
 |---|---|---|
 | 4-bit Johnson Counter | Four-stage twisted-ring counter with complemented feedback; produces eight states | [Open](./RTL_Design/Shift_Registers/Johnson_Counter) |
+| Serial-In Serial-Out (SISO) Shift Register | Serial data is shifted through the register one clock cycle at a time, with serial output | [Open](./RTL_Design/Shift_Registers/SISO_Shift_Register) |
 
 ---
 
@@ -142,8 +143,11 @@ Verilog-Fundamentals/
 │   │   │       └── 4_bit_ripple_carry_adder/
 │   │   ├── Decoders/
 │   │   └── Encoder/
-│   └── Sequential/
-│       └── Flip-Flops/
+│   ├── Sequential/
+│   │   └── Flip-Flops/
+│   └── Shift_Registers/
+│       ├── Johnson_Counter/
+│       └── SISO_Shift_Register/
 ├── Makefile
 ├── Makefile_and_RTL_Automation_Notes.md
 └── README.md
