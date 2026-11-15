@@ -106,16 +106,6 @@ A hands-on repository documenting my progression in digital logic, Verilog RTL d
 
 ---
 
-
-| Project | Description | Link |
-|---|---|---|
-| D Flip-Flop | Basic edge-triggered D flip-flop | [Open](./RTL_Design/Sequential/Flip-Flops/D_Flip-Flop) |
-| D Flip-Flop with Reset | D flip-flop with asynchronous reset | [Open](./RTL_Design/Sequential/Flip-Flops/D_FF_With_Reset) |
-| JK Flip-Flop | JK operation with hold, set, reset, toggle, and asynchronous reset | [Open](./RTL_Design/Sequential/Flip-Flops/JK_fF) |
-| T Flip-Flop with Asynchronous Reset | Toggle flip-flop with asynchronous active-low reset | [Open](./RTL_Design/Sequential/Flip-Flops/T_FF_With_Async_Reset) |
-
----
-
 ## Simulation and Development Workflow
 
 The repository uses Verilog HDL with command-line simulation and waveform inspection.
