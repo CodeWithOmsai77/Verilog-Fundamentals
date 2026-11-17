@@ -46,6 +46,9 @@ help:
 	@echo "  make lint PROJECT=<name>"
 	@echo "      Run Verilator lint"
 	@echo ""
+	@echo "  make check-tools"
+	@echo "      Check installed RTL simulation and lint tools"
+	@echo ""
 	@echo "  make clean"
 	@echo "      Remove generated simulation files"
 	@echo ""
@@ -210,6 +213,27 @@ lint:
 
 
 # ============================================================
+# Check Toolchain
+# ============================================================
+
+check-tools:
+	@status=0; \
+	for tool in iverilog vvp verilator; do \
+		if command -v $tool >/dev/null 2>&1; then \
+			echo "[FOUND] $tool: $(command -v $tool)"; \
+		else \
+			echo "[MISSING] $tool"; \
+			status=1; \
+		fi; \
+	done; \
+	if command -v gtkwave >/dev/null 2>&1; then \
+		echo "[FOUND] gtkwave: $(command -v gtkwave)"; \
+	else \
+		echo "[OPTIONAL] gtkwave not found; waveform viewing will be unavailable."; \
+	fi; \
+	exit $status
+
+# ============================================================
 # Clean
 # ============================================================
 
@@ -249,4 +273,4 @@ hello:
 	@echo "Master Makefile is working!"
 
 
-.PHONY: help list run compile sim wave lint clean clean-all hello
+.PHONY: help list run compile sim wave lint check-tools clean clean-all hello
