@@ -158,3 +158,22 @@ Verilog-Fundamentals/
 The project sequence moves from basic logic gates and combinational building blocks to hierarchical arithmetic designs and sequential RTL. Each implementation is an opportunity to practise translating logic into Verilog, organizing a testbench, compiling, checking simulation output, and inspecting waveforms.
 
 > Understand the logic, write the RTL, verify the behaviour, and debug the result.
+
+
+## Verification Checklist
+
+Use this sequence when adding or revisiting a design:
+
+1. **Specify expected behavior** — write the truth table, state transitions or operation table before coding.
+2. **Separate design and testbench** — keep synthesizable RTL independent from simulation-only stimulus and checking code.
+3. **Cover meaningful cases** — include every select/input combination for small combinational blocks, and boundary/state-transition cases for sequential blocks.
+4. **Check automatically** — compare DUT outputs against independently derived expected values and report clear PASS/FAIL messages.
+5. **Inspect failures** — use the VCD waveform to identify the failing input, clock edge, reset behavior or state transition.
+6. **Record evidence** — document the simulator command, test cases exercised and any known limitations.
+
+A testbench passing its current test set demonstrates only the cases it exercised. State whether coverage is directed, exhaustive over a defined input space, or randomized; do not describe a test as exhaustive unless every relevant combination was actually checked.
+
+### Example of existing verification evidence
+
+- The MUX and DEMUX exercises use self-checking testbenches that compare DUT outputs with expected results and report PASS/FAIL.
+- The 4-bit ripple-carry adder testbench checks 512 input combinations, covering all combinations of its 4-bit A, 4-bit B and carry-in inputs.
